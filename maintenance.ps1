@@ -1,99 +1,99 @@
-# maintenance.ps1
-# Robust maintenance script for Windows dev machine
-# Updates system & packages, cleans temp files & logs, disk cleanup, etc.
-# Logs all output to a timestamped log file
+# Maintenance.ps1
+# Automated Windows 11 maintenance script
+# Clears event logs, cleans temp files, runs Windows updates, and pushes script updates to GitHub.
 
-$logDir = "$env:USERPROFILE\maintenance_logs"
-if (-not (Test-Path $logDir)) { New-Item -ItemType Directory -Path $logDir | Out-Null }
-$logFile = "$logDir\maintenance_$(Get-Date -Format 'yyyyMMdd_HHmmss').log"
+# Config - update these variables as needed
+$scriptFolder = "C:\Users\miste\maintenanceScripts"
+$repoUrl = "git@github.com:bentpigeonnz/maintenanceScripts.git"
+$commitMessage = "Automated maintenance script update on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+$logFile = "$scriptFolder\maintenance_log.txt"
 
-function LogWrite {
+function Write-Log {
     param([string]$message)
     $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    $entry = "$timestamp`t$message"
-    Write-Output $entry
-    Add-Content -Path $logFile -Value $entry
+    $line = "$timestamp - $message"
+    Write-Host $line
+    Add-Content -Path $logFile -Value $line
 }
 
-LogWrite "=== Maintenance Script Started ==="
+Write-Log "=== Starting Maintenance Script ==="
 
-# 1. Windows Updates (using PSWindowsUpdate module)
+# 1. Clear Event Logs using wevtutil
+Write-Log "Clearing event logs..."
 try {
-    LogWrite "Checking for Windows Updates..."
-    if (-not (Get-Module -ListAvailable -Name PSWindowsUpdate)) {
-        Install-PackageProvider -Name NuGet -Force -Scope CurrentUser | Out-Null
-        Install-Module -Name PSWindowsUpdate -Force -Scope CurrentUser
-    }
-    Import-Module PSWindowsUpdate -Force
-    $updates = Get-WindowsUpdate -AcceptAll -IgnoreReboot
-    if ($updates) {
-        LogWrite "Installing Windows Updates..."
-        Install-WindowsUpdate -AcceptAll -IgnoreReboot -Verbose -Confirm:$false | ForEach-Object {
-            LogWrite $_.Title
+    $logs = wevtutil el
+    foreach ($log in $logs) {
+        try {
+            wevtutil cl $log
+            Write-Log "Cleared event log: $log"
+        } catch {
+            Write-Log "Warning: Failed to clear event log $log - $_"
         }
-    } else {
-        LogWrite "No Windows updates available."
     }
 } catch {
-    LogWrite "ERROR during Windows Update: $_"
+    Write-Log "Error retrieving event logs: $_"
 }
 
-# 2. Chocolatey updates
+# 2. Disk Cleanup - delete temp files
+Write-Log "Cleaning temporary files..."
 try {
-    LogWrite "Updating Chocolatey packages..."
-    if (Get-Command choco -ErrorAction SilentlyContinue) {
-        choco upgrade all -y | ForEach-Object { LogWrite $_ }
-    } else {
-        LogWrite "Chocolatey not installed."
-    }
-} catch {
-    LogWrite "ERROR during Chocolatey upgrade: $_"
-}
-
-# 3. Clean Temp folders
-try {
-    LogWrite "Cleaning Temp folders..."
     $tempPaths = @(
+        "$env:LOCALAPPDATA\Temp\*",
         "$env:TEMP\*",
-        "$env:WINDIR\Temp\*"
+        "$env:SystemRoot\Temp\*"
     )
     foreach ($path in $tempPaths) {
         Remove-Item -Path $path -Recurse -Force -ErrorAction SilentlyContinue
-    }
-    LogWrite "Temp folders cleaned."
-} catch {
-    LogWrite "ERROR cleaning Temp folders: $_"
-}
-
-# 4. Empty Recycle Bin
-try {
-    LogWrite "Emptying Recycle Bin..."
-    (New-Object -ComObject Shell.Application).NameSpace(0xA).Items() | ForEach-Object {
-        $_.InvokeVerb("delete")
-    }
-    LogWrite "Recycle Bin emptied."
-} catch {
-    LogWrite "ERROR emptying Recycle Bin: $_"
-}
-
-# 5. Clear Windows Event Logs
-try {
-    LogWrite "Clearing Event Logs..."
-    Get-WinEvent -ListLog * | Where-Object { $_.IsEnabled } | ForEach-Object {
-        Clear-WinEvent -LogName $_.LogName -ErrorAction SilentlyContinue
-        LogWrite "Cleared event log: $($_.LogName)"
+        Write-Log "Cleared temp files in $path"
     }
 } catch {
-    LogWrite "ERROR clearing event logs: $_"
+    Write-Log "Error cleaning temp files: $_"
 }
 
-# 6. Disk Cleanup (using cleanmgr.exe)
+# 3. Windows Updates
+Write-Log "Checking and installing Windows updates..."
 try {
-    LogWrite "Running Disk Cleanup..."
-    Start-Process -FilePath cleanmgr.exe -ArgumentList "/sagerun:1" -Wait
-    LogWrite "Disk Cleanup completed."
+    # Create update session and searcher
+    $updateSession = New-Object -ComObject Microsoft.Update.Session
+    $updateSearcher = $updateSession.CreateUpdateSearcher()
+    $searchResult = $updateSearcher.Search("IsInstalled=0 and Type='Software'")
+    
+    if ($searchResult.Updates.Count -gt 0) {
+        Write-Log "Found $($searchResult.Updates.Count) updates. Installing..."
+        $updatesToInstall = New-Object -ComObject Microsoft.Update.UpdateColl
+        foreach ($update in $searchResult.Updates) {
+            $updatesToInstall.Add($update) | Out-Null
+        }
+        $installer = $updateSession.CreateUpdateInstaller()
+        $installer.Updates = $updatesToInstall
+        $result = $installer.Install()
+        Write-Log "Installation result: $($result.ResultCode)"
+    } else {
+        Write-Log "No pending updates found."
+    }
 } catch {
-    LogWrite "ERROR during Disk Cleanup: $_"
+    Write-Log "Error during Windows Update: $_"
 }
 
-LogWrite "=== Maintenance Script Completed ==="
+# 4. Git push of script folder (commit & push latest changes)
+Write-Log "Committing and pushing maintenance script to GitHub..."
+
+try {
+    Set-Location $scriptFolder
+
+    # Check if git repo exists
+    if (Test-Path "$scriptFolder\.git") {
+        git add -A
+        git commit -m $commitMessage -q
+        git push origin main -q
+        Write-Log "Pushed changes to GitHub repo."
+    } else {
+        Write-Log "Git repository not found in $scriptFolder. Attempting to clone..."
+        git clone $repoUrl $scriptFolder
+        Write-Log "Repository cloned."
+    }
+} catch {
+    Write-Log "Git operation failed: $_"
+}
+
+Write-Log "=== Maintenance Script Completed ==="
