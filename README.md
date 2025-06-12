@@ -1,45 +1,43 @@
-# 🧰 Windows Maintenance Automation Script
+# Maintenance Script
 
-This PowerShell script automates common Windows 11 system maintenance tasks including event log clearing, temporary file cleanup, Windows updates, GitHub backups, and error reporting via email. It’s designed for personal use, homelabs, or anyone who wants automated, hands-off system upkeep.
-
----
-
-## ✅ Features
-
-- 🔄 **Event Log Clearing** – Clears all event logs using `wevtutil`
-- 🧹 **Temporary File Cleanup** – Deletes system and user temporary files
-- 🛠️ **Windows Updates** – Automatically checks for and installs available updates
-- 🗃️ **Log File Rotation** – Logs are rotated daily and archived after 7 days
-- 📧 **Email Error Alerts** – Sends a summary of any script errors via Gmail SMTP
-- 🔁 **GitHub Sync** – Commits and pushes changes to a private or public GitHub repository
+Automated Windows maintenance and developer environment update script for personal or professional use. This PowerShell script helps keep your system clean, updated, and synchronized with your GitHub repository while sending email alerts on failure.
 
 ---
 
-## 📁 Folder Structure
+## Overview
 
-maintenanceScripts/
-├── maintenance.ps1 # The main automation script
-├── README.md # Documentation file (this file)
-├── logs/
-│ ├── maintenance_YYYYMMDD.log # Daily log file
-│ └── archive/ # Archived logs older than 7 days
+This script performs a full maintenance routine including:
+
+- Clearing all Windows Event Logs to help diagnose fresh issues more easily.
+- Cleaning temporary file directories to free disk space and improve performance.
+- Checking for and installing all pending Windows software updates.
+- Updating all development tools managed by [Chocolatey](https://chocolatey.org/).
+- Rotating and archiving log files older than a configurable retention period.
+- Automatically committing and pushing script changes to a specified GitHub repository.
+- Sending detailed email alerts if any step encounters an error.
 
 ---
 
-## 📬 Email Alerts
+## Features
 
-If the script encounters errors (e.g., failed cleanup, update issues, Git push failures), it sends a summary to your configured Gmail account.
+| Feature                     | Description                                                                                   |
+|-----------------------------|-----------------------------------------------------------------------------------------------|
+| **Event Logs Cleanup**       | Uses Windows built-in `wevtutil` utility to clear all event logs.                            |
+| **Temp Files Cleanup**       | Deletes files from user and system temporary folders to free disk space.                     |
+| **Windows Updates**          | Searches for, downloads, and installs all available software updates automatically.         |
+| **Developer Tools Update**   | Uses Chocolatey to upgrade all installed development-related software packages.              |
+| **Log Rotation**             | Moves logs older than 7 days into an `archive` subfolder to keep log directory manageable.   |
+| **GitHub Integration**       | Detects changes, commits with timestamped message, and pushes to the remote GitHub repo.     |
+| **Email Notifications**      | Sends error reports via SMTP email if any failures occur during the maintenance run.         |
 
-### 🔐 Gmail App Password Setup
+---
 
-> Google requires you to use an "App Password" instead of your normal password.
+## Folder Structure
 
-1. Go to [https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)
-2. Sign in and select:
-   - **App**: "Other (Custom name)"
-   - **Name**: `MaintenanceScript`
-3. Copy the 16-character password it generates
-4. In `maintenance.ps1`, replace:
-
-```powershell
-$smtpPass = "your-app-password-here"
+```plaintext
+maintenanceScripts\
+├── Maintenance.ps1          # Main PowerShell maintenance script
+├── logs\                   # Directory holding daily logs and archived logs
+│   ├── maintenance_YYYYMMDD.log  # Log file for each day the script runs
+│   └── archive\            # Subfolder for log files older than retention period (default 7 days)
+└── README.md               # This documentation file
