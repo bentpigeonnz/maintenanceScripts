@@ -144,20 +144,32 @@ try {
 }
 
 try {
-    Write-Log "Pushing script updates to GitHub..."
+    Write-Log "Synchronizing local repo with remote (git pull --rebase)..."
     Set-Location $scriptFolder
+
     if (Test-Path "$scriptFolder\.git") {
+        # Pull latest changes with rebase
+        git pull origin main --rebase | ForEach-Object { Write-Log $_ }
+        
+        # Add and commit changes if any
         git add -A
-        git commit -m $commitMessage
-        git push origin main
-        Write-Log "Changes pushed to GitHub."
+        $commitResult = git commit -m $commitMessage -q 2>&1
+        if ($commitResult -notmatch "nothing to commit") {
+            Write-Log "Committed changes."
+        } else {
+            Write-Log "No changes to commit."
+        }
+        
+        # Push commits
+        git push origin main | ForEach-Object { Write-Log $_ }
+        Write-Log "Git pull and push completed."
     } else {
-        Write-Log "Git repo not found. Attempting to clone..."
-        git clone $repoUrl $scriptFolder
+        Write-Log "Git repository not found. Cloning repo..."
+        git clone $repoUrl $scriptFolder | ForEach-Object { Write-Log $_ }
         Write-Log "Repository cloned."
     }
 } catch {
-    Write-Log ("Git push failed: {0}" -f $_.Exception.Message) "ERROR"
+    Write-Log ("Git operation failed: {0}" -f $_.Exception.Message) "ERROR"
 }
 
 Send-ErrorEmail
