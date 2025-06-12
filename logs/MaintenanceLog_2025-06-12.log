@@ -1,0 +1,4 @@
+2025-06-12 19:42:50 [INFO] Checking and installing Windows updates...
+2025-06-12 19:43:00 [INFO] No pending updates found.
+2025-06-12 19:43:00 [ERROR] === Maintenance Script Failed ===
+2025-06-12 19:43:02 [INFO] Sent email notification: Maintenance Script Failed
