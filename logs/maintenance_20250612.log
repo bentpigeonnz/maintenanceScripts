@@ -3545,3 +3545,1232 @@
 2025-06-12 20:37:45 [INFO] -  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
 2025-06-12 20:37:45 [INFO] - Developer tools updated via Chocolatey.
 2025-06-12 20:37:45 [INFO] - Pushing script updates to GitHub...
+2025-06-12 20:37:48 [INFO] - Changes pushed to GitHub.
+2025-06-12 20:37:48 [INFO] - Sending error alert email...
+2025-06-12 20:37:52 [INFO] - Error email sent.
+2025-06-12 20:37:52 [INFO] - === Maintenance Script Completed ===
+2025-06-12 20:38:53 [INFO] - === Starting Full Maintenance Script ===
+2025-06-12 20:38:53 [INFO] - Rotating logs older than 7 days...
+2025-06-12 20:38:53 [INFO] - Clearing event logs...
+2025-06-12 20:38:53 [INFO] - Cleared event log: AMSI/Debug
+2025-06-12 20:38:53 [INFO] - Cleared event log: Analytic
+2025-06-12 20:38:53 [INFO] - Cleared event log: Application
+2025-06-12 20:38:53 [INFO] - Cleared event log: Camera_FSAnalytic
+2025-06-12 20:38:53 [INFO] - Cleared event log: DirectShowFilterGraph
+2025-06-12 20:38:53 [INFO] - Cleared event log: DirectShowPluginControl
+2025-06-12 20:38:53 [INFO] - Cleared event log: Els_Hyphenation/Analytic
+2025-06-12 20:38:53 [INFO] - Cleared event log: EndpointMapper
+2025-06-12 20:38:53 [INFO] - Cleared event log: FirstUXPerf-Analytic
+2025-06-12 20:38:53 [INFO] - Cleared event log: ForwardedEvents
+2025-06-12 20:38:53 [INFO] - Cleared event log: HardwareEvents
+2025-06-12 20:38:53 [INFO] - Cleared event log: IHM_DebugChannel
+2025-06-12 20:38:53 [INFO] - Cleared event log: Intel-iaLPSS-GPIO/Analytic
+2025-06-12 20:38:53 [INFO] - Cleared event log: Intel-iaLPSS-I2C/Analytic
+2025-06-12 20:38:53 [INFO] - Cleared event log: Intel-iaLPSS2-GPIO2/Debug
+2025-06-12 20:38:53 [INFO] - Cleared event log: Intel-iaLPSS2-GPIO2/Performance
+2025-06-12 20:38:53 [INFO] - Cleared event log: Intel-iaLPSS2-I2C/Debug
+2025-06-12 20:38:53 [INFO] - Cleared event log: Intel-iaLPSS2-I2C/Performance
+2025-06-12 20:38:53 [INFO] - Cleared event log: Internet Explorer
+2025-06-12 20:38:53 [INFO] - Cleared event log: Key Management Service
+2025-06-12 20:38:53 [INFO] - Cleared event log: MF_DshowReverseBridge
+2025-06-12 20:38:53 [INFO] - Cleared event log: MF_MediaFoundationDeviceMFT
+2025-06-12 20:38:53 [INFO] - Cleared event log: MedaFoundationVideoProc
+2025-06-12 20:38:53 [INFO] - Cleared event log: MedaFoundationVideoProcD3D
+2025-06-12 20:38:53 [INFO] - Cleared event log: MediaFoundationAsyncWrapper
+2025-06-12 20:38:53 [INFO] - Cleared event log: MediaFoundationContentProtection
+2025-06-12 20:38:53 [INFO] - Cleared event log: MediaFoundationDS
+2025-06-12 20:38:53 [INFO] - Cleared event log: MediaFoundationDeviceProxy
+2025-06-12 20:38:53 [INFO] - Cleared event log: MediaFoundationMP4
+2025-06-12 20:38:53 [INFO] - Cleared event log: MediaFoundationMediaEngine
+2025-06-12 20:38:53 [INFO] - Cleared event log: MediaFoundationPerformance
+2025-06-12 20:38:53 [INFO] - Cleared event log: MediaFoundationPerformanceCore
+2025-06-12 20:38:53 [INFO] - Cleared event log: MediaFoundationPipeline
+2025-06-12 20:38:53 [INFO] - Cleared event log: MediaFoundationPlatform
+2025-06-12 20:38:53 [INFO] - Cleared event log: MediaFoundationSrcPrefetch
+2025-06-12 20:38:53 [INFO] - Cleared event log: Microsoft-Client-Licensing-Platform/Admin
+2025-06-12 20:38:53 [INFO] - Cleared event log: Microsoft-Client-Licensing-Platform/Debug
+2025-06-12 20:38:53 [INFO] - Cleared event log: Microsoft-Client-Licensing-Platform/Diagnostic
+2025-06-12 20:38:53 [INFO] - Cleared event log: Microsoft-IE/Diagnostic
+2025-06-12 20:38:53 [INFO] - Cleared event log: Microsoft-IEFRAME/Diagnostic
+2025-06-12 20:38:53 [INFO] - Cleared event log: Microsoft-JSDumpHeap/Diagnostic
+2025-06-12 20:38:53 [INFO] - Cleared event log: Microsoft-OneCore-Setup/Analytic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-PerfTrack-IEFRAME/Diagnostic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-PerfTrack-MSHTML/Diagnostic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-System-Diagnostics-DiagnosticInvoker/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AAD/Analytic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AAD/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-ADSI/Debug
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-ASN1/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-ATAPort/General
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-ATAPort/SATA-LPM
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AccelLib-AccelCx/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-ActionQueue/Analytic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-All-User-Install-Agent/Admin
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppHost/Admin
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppHost/ApplicationTracing
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppHost/Diagnostic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppHost/Internal
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppID/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppLocker/EXE and DLL
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppLocker/MSI and Script
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppLocker/Packaged app-Deployment
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppLocker/Packaged app-Execution
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppLocker/Verbose
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppModel-Runtime/Admin
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppModel-Runtime/Analytic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppModel-Runtime/Debug
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppModel-Runtime/Diagnostics
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppModel-State/Debug
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppModel-State/Diagnostic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppReadiness/Admin
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppReadiness/Debug
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppReadiness/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppSruProv
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppXDeployment-Server/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppXDeployment/Diagnostic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppXDeployment/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppXDeploymentServer/Debug
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppXDeploymentServer/Diagnostic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppXDeploymentServer/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppXDeploymentServer/Restricted
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-ApplicabilityEngine/Analytic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-ApplicabilityEngine/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application Server-Applications/Admin
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application Server-Applications/Analytic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application Server-Applications/Debug
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application Server-Applications/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application-Experience/Compatibility-Infrastructure-Debug
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant/Analytic
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant/Trace
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application-Experience/Program-Compatibility-Troubleshooter
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application-Experience/Program-Inventory
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application-Experience/Program-Telemetry
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Application-Experience/Steps-Recorder
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppxPackaging/Debug
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppxPackaging/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AppxPackaging/Performance
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-AsynchronousCausality/Causality
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Audio/CaptureMonitor
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Audio/GlitchDetection
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Audio/Informational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Audio/Operational
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Audio/Performance
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Audio/PlaybackManager
+2025-06-12 20:38:54 [INFO] - Cleared event log: Microsoft-Windows-Audit/Analytic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Authentication User Interface/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Authentication/AuthenticationPolicyFailures-DomainController
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Authentication/ProtectedUser-Client
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Authentication/ProtectedUserFailures-DomainController
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Authentication/ProtectedUserSuccesses-DomainController
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-AxInstallService/Log
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-BTH-BTHPORT/HCI
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-BTH-BTHPORT/L2CAP
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-BTH-BTHUSB/Diagnostic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-BTH-BTHUSB/Performance
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-BackgroundTaskInfrastructure/Diagnostic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-BackgroundTaskInfrastructure/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-BackgroundTransfer-ContentPrefetcher/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Backup
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Base-Filtering-Engine-Connections/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Base-Filtering-Engine-Resource-Flows/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Battery/Diagnostic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Biometrics/Analytic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Biometrics/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-BitLocker-Driver-Performance/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-BitLocker/BitLocker Management
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-BitLocker/BitLocker Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-BitLocker/Tracing
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Bits-Client/Analytic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Bits-Client/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Bluetooth-BthLEPrepairing/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Bluetooth-Bthmini/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Bluetooth-MTPEnum/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Bluetooth-Policy/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CAPI2/Catalog Database Debug
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CAPI2/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CDROM/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-COM/Analytic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-COM/ApartmentInitialize
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-COM/ApartmentUninitialize
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-COM/Call
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-COM/CreateInstance
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-COM/ExtensionCatalog
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-COM/FreeUnusedLibrary
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-COM/RundownInstrumentation
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-COMRuntime/Activations
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-COMRuntime/MessageProcessing
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-COMRuntime/Tracing
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CertPoleEng/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CertificateServicesClient-CredentialRoaming/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CertificateServicesClient-Lifecycle-System/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CertificateServicesClient-Lifecycle-User/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Cleanmgr/Diagnostic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-ClearTypeTextTuner/Diagnostic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CloudFiles-Filter/Debug
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CloudFiles-Filter/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CloudRestoreLauncher/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CloudStore/Debug
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CloudStore/Initialization
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CloudStore/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CmiSetup/Analytic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CodeIntegrity/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CodeIntegrity/Verbose
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-ComDlg32/Analytic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-ComDlg32/Debug
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Compat-Appraiser/Analytic
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Compat-Appraiser/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Containers-BindFlt/Debug
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Containers-BindFlt/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Containers-Wcifs/Debug
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-Containers-Wcifs/Operational
+2025-06-12 20:38:55 [INFO] - Cleared event log: Microsoft-Windows-CoreApplication/Diagnostic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-CoreApplication/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-CoreApplication/Tracing
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-CoreSystem-SmsRouter-Events/Debug
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-CoreSystem-SmsRouter-Events/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-CoreWindow/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-CoreWindow/Debug
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-CorruptedFileRecovery-Client/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-CorruptedFileRecovery-Server/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crashdump/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crashdump/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-CredUI/Diagnostic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crypto-BCRYPT/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crypto-CNG/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crypto-DPAPI/BackUpKeySvc
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crypto-DPAPI/Debug
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crypto-DPAPI/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crypto-DSSEnh/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crypto-NCrypt/CertInUse
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crypto-NCrypt/KeyMgmt
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crypto-NCrypt/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crypto-RNG/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Crypto-RSAEnh/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-D3D10Level9/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-D3D10Level9/PerfTiming
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DAL-Provider/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DAL-Provider/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DCLocator/Debug
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DDisplay/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DDisplay/Logging
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DLNA-Namespace/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DNS-Client/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DSC/Admin
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DSC/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DSC/Debug
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DSC/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DUI/Diagnostic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DUSER/Diagnostic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DXGI/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DXGI/Logging
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DXGIDebug/Logging
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DXP/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Data-Pdf/Debug
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DataIntegrityScan/Admin
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DataIntegrityScan/CrashRecovery
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DateTimeControlPanel/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DateTimeControlPanel/Debug
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DateTimeControlPanel/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Defrag-Core/Debug
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-Deplorch/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DesktopActivityModerator/Diagnostic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceAssociationService/Performance
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceConfidence/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceGuard/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceGuard/Verbose
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Autopilot
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Debug
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Enrollment
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Sync
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceSetupManager/Admin
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceSetupManager/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceSetupManager/Debug
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceSetupManager/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceSync/Analytic
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceSync/Operational
+2025-06-12 20:38:56 [INFO] - Cleared event log: Microsoft-Windows-DeviceUpdateAgent/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DeviceUx/Informational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DeviceUx/Performance
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Devices-Background/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Devices-Query/Performance
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dhcp-Client/Admin
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dhcp-Client/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dhcpv6-Client/Admin
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dhcpv6-Client/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DiagCpl/Debug
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-AdvancedTaskManager/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-DPS/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-DPS/Debug
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-DPS/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-MSDE/Debug
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-PCW/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-PCW/Debug
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-PCW/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-PLA/Debug
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-PLA/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-Scheduled/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-Scripted/Admin
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-Scripted/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-Scripted/Debug
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-Scripted/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider/Debug
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-WDC/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnosis-WDI/Debug
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnostics-Networking/Debug
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnostics-Networking/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnostics-PerfTrack/Diagnostic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnostics-Performance/Diagnostic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnostics-Performance/Diagnostic/Loopback
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Diagnostics-Performance/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Direct3D10/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Direct3D10_1/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Direct3D11/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Direct3D11/Logging
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Direct3D11/PerfTiming
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Direct3D12/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Direct3D12/Logging
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Direct3D12/PerfTiming
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Direct3D9/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Direct3DShaderCache/Default
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DirectComposition/Diagnostic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DirectManipulation/Diagnostic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DirectShow-KernelSupport/Performance
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DirectSound/Debug
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Disk/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DiskDiagnostic/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DiskDiagnosticDataCollector/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DiskDiagnosticResolver/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dism-Api/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dism-Api/ExternalAnalytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dism-Api/InternalAnalytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dism-Cli/Analytic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DisplayColorCalibration/Debug
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DisplayColorCalibration/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DisplaySwitch/Diagnostic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Documents/Performance
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DriverFrameworks-UserMode/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DriverProxy/Operational
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-DriverProxy/Performance
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dwm-API/Diagnostic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dwm-Compositor/Diagnostic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dwm-Core/Diagnostic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dwm-Dwm/Diagnostic
+2025-06-12 20:38:57 [INFO] - Cleared event log: Microsoft-Windows-Dwm-Redir/Diagnostic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-Dwm-Udwm/Diagnostic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-DxgKrnl-Admin
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-DxgKrnl-Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-DxgKrnl-SysMm/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-DxgKrnl-SysMm/Performance
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-DxgKrnl/Contention
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-DxgKrnl/Diagnostic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-DxgKrnl/Performance
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-DxgKrnl/Power
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-DxpTaskSyncProvider/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EDP-Application-Learning/Admin
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EDP-Audit-Regular/Admin
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EDP-Audit-TCB/Admin
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EFS/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EFS/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-ESE/IODiagnose
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-ESE/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EapHost/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EapHost/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EapHost/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EapMethods-RasChap/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EapMethods-RasTls/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EapMethods-Sim/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EapMethods-Ttls/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EaseOfAccess/Diagnostic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-Energy-Estimation-Engine/EventLog
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-Energy-Estimation-Engine/Trace
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EnhancedStorage-EhStorClass/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EnhancedStorage-EhStorTcgDrv/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EventCollector/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EventCollector/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EventLog-WMIProvider/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EventLog/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-EventLog/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FMS/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FMS/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FMS/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FailoverClustering-Client/Diagnostic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FailoverClustering-Client/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-Fault-Tolerant-Heap/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FeatureConfiguration/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FeatureConfiguration/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-Feedback-Service-TriggerProvider
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-Catalog/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-Catalog/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-ConfigManager/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-ConfigManager/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-Core/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-Core/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-Core/WHC
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-Engine/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-Engine/BackupLog
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-Engine/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-EventListener/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-EventListener/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-Service/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-Service/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-UI-Events/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileHistory-UI-Events/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-FileInfoMinifilter/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-Firewall-CPL/Diagnostic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-Folder Redirection/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-Forwarding/Debug
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-Forwarding/Operational
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-GPIO-ClassExtension/Analytic
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-GenericRoaming/Admin
+2025-06-12 20:38:58 [INFO] - Cleared event log: Microsoft-Windows-GroupPolicy/Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HAL/Debug
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HealthCenter/Debug
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HealthCenter/Performance
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HealthCenterCPL/Performance
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HelloForBusiness/Debug
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HelloForBusiness/Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Help/Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HomeGroup Control Panel Performance/Diagnostic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HomeGroup Control Panel/Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Host-Network-Service-Admin
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Host-Network-Service-Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Host-Network-Service-Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HotspotAuth/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HotspotAuth/Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HttpService/Log
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-HttpService/Trace
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Compute-Admin
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Compute-Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Compute-Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Guest-Drivers/Admin
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Guest-Drivers/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Guest-Drivers/Debug
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Guest-Drivers/Diagnose
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Guest-Drivers/Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Hierarchical-NIC-Switch/Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Hypervisor-Admin
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Hypervisor-Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Hypervisor-Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-KMCL-Child/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-KMCL/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-NETVSC/Diagnostic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-StorageVSP-Admin
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-StorageVSP-Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-VID-Admin
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-VID-Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-VfpExt-Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-VfpExt-Ifr
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-VmSwitch-Diagnostic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-VmSwitch-Diagnostic-Traffic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-VmSwitch-Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Worker-Admin
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Worker-Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Worker-Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-Hyper-V-Worker-VDev-Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IE-SmartScreen
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IKE/Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IKEDBG/Debug
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-Broker/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-CandidateUI/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-CustomerFeedbackManager/Debug
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-CustomerFeedbackManagerUI/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-JPAPI/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-JPLMP/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-JPPRED/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-JPSetting/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-JPTIP/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-KRAPI/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-KRTIP/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-OEDCompiler/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-TCCORE/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-TCTIP/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IME-TIP/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IPNAT/Diagnostic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IPSEC-SRV/Diagnostic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IPxlatCfg/Debug
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IPxlatCfg/Operational
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IdCtrls/Analytic
+2025-06-12 20:38:59 [INFO] - Cleared event log: Microsoft-Windows-IdCtrls/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-IndirectDisplays-ClassExtension-Events/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Input-HIDCLASS-Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-InputSwitch/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-International-RegionalOptionsControlPanel/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Iphlpsvc/Debug
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Iphlpsvc/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Iphlpsvc/Trace
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-KdsSvc/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kerberos-Local-Key-Distribution-Center/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kerberos-Local-Key-Distribution-Center/Performance
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kerberos/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Acpi/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-AppCompat/General
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-AppCompat/Performance
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-ApphelpCache/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-ApphelpCache/Debug
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-ApphelpCache/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Boot/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Boot/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-BootDiagnostics/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-CPU-Partition/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-CPU-Starvation/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Cache/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Disk/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Dump/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-EventTracing/Admin
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-EventTracing/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-File/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-IO/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Interrupt-Steering/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-IoTrace/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-LiveDump/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-LiveDump/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Memory/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Network/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-PRM/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Pdc/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Pep/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-PnP/Boot Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-PnP/Configuration
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-PnP/Configuration Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-PnP/Device Enumeration Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-PnP/Device Management
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-PnP/Driver Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-PnP/Driver Watchdog
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Power/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Power/Thermal-Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Power/Thermal-Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Prefetch/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Process/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Processor-Power/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Registry/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-Registry/Performance
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-ShimEngine/Debug
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-ShimEngine/Diagnostic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-ShimEngine/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-StoreMgr/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-StoreMgr/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-WDI/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-WDI/Debug
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-WDI/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-WHEA/Errors
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-WHEA/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Kernel-XDV/Analytic
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-KernelStreaming/Operational
+2025-06-12 20:39:00 [INFO] - Cleared event log: Microsoft-Windows-Known Folders API Service
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-L2NA/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LAPS/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LDAP-Client/Debug
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LSA/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LSA/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LSA/Performance
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LUA-ConsentUI/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LanguagePackSetup/Analytic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LanguagePackSetup/Debug
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LanguagePackSetup/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LimitsManagement/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LinkLayerDiscoveryProtocol/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LinkLayerDiscoveryProtocol/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LiveId/Analytic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LiveId/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-LocationServiceProvider/Debug
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MF-FrameServer/Camera_DeviceMFT
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MF-FrameServer/Camera_FrameServer
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MF-MediaFoundation/MF_DeviceProxy
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MPEG2-Video-Encoder-MFT_Analytic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MPS-CLNT/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MPS-DRV/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MPS-SRV/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MSFTEDIT/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MUI/Admin
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MUI/Analytic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MUI/Debug
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MUI/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Media-Streaming/DMC
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Media-Streaming/DMR
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Media-Streaming/MDE
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MediaFoundation-MFCaptureEngine/MFCaptureEngine
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MediaFoundation-MFReadWrite/SinkWriter
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MediaFoundation-MFReadWrite/SourceReader
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MediaFoundation-MFReadWrite/Transform
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MediaFoundation-Performance/SARStreamResource
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MediaFoundation-PlayAPI/Analytic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MemoryDiagnostics-Results/Debug
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Minstore/Analytic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Minstore/Debug
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Mobile-Broadband-Experience-Api-Internal/Analytic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Mobile-Broadband-Experience-Api/Analytic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Mobile-Broadband-Experience-SmsApi/Analytic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MobilityCenter/Performance
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Admin
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Debug
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Diagnostics
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-ModernDeployment-Diagnostics-Provider/ManagementService
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MosHost/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-MosHost/Performance
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Mprddm/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NCSI/Analytic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NCSI/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NDF-HelperClassDiscovery/Debug
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NDIS-PacketCapture/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NDIS/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NDIS/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NTLM/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NWiFi/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Narrator/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Ncasvc/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NcdAutoSetup/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NcdAutoSetup/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NdisImPlatform/Operational
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Ndu/Diagnostic
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-NetShell/Performance
+2025-06-12 20:39:01 [INFO] - Cleared event log: Microsoft-Windows-Network-Connection-Broker
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Network-ExecutionContext/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Network-Setup/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Network-and-Sharing-Center/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-NetworkBridge/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-NetworkProfile/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-NetworkProfile/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-NetworkProvider/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-NetworkProvisioning/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-NetworkProvisioning/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-NetworkSecurity/Debug
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Networking-Correlation/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Networking-RealTimeCommunication/Tracing
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-NlaSvc/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-NlaSvc/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Ntfs/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Ntfs/Performance
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Ntfs/WHC
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OLE/Clipboard-Performance
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OLEACC/Debug
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OLEACC/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OOBE-FirstLogonAnim/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OOBE-Machine-Core/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OOBE-Machine-DUI/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OOBE-Machine-DUI/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OneBackup/Debug
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OneX/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OneX/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OobeLdr/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-OtpCredentialProvider/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PCI/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PCI/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-ParentalControls/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Partition/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Partition/Debug
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Partition/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PerceptionRuntime/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PerceptionSensorDataService/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Perflib/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PersistentMemory-Nvdimm/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PersistentMemory-Nvdimm/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PersistentMemory-Nvdimm/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PersistentMemory-PmemDisk/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PersistentMemory-PmemDisk/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PersistentMemory-PmemDisk/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PersistentMemory-ScmBus/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PersistentMemory-ScmBus/Certification
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PersistentMemory-ScmBus/Diagnose
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PersistentMemory-ScmBus/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PhotoAcq/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PlayToManager/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Policy/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-Policy/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PortableDeviceStatusProvider/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PortableDeviceSyncProvider/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PowerCfg/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PowerCpl/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PowerEfficiencyDiagnostics/Diagnostic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Debug
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PowerShell/Admin
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PowerShell/Analytic
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PowerShell/Debug
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PowerShell/Operational
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PrintService-USBMon/Debug
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PrintService/Admin
+2025-06-12 20:39:02 [INFO] - Cleared event log: Microsoft-Windows-PrintService/Debug
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-PrintService/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Privacy-Auditing-PermissiveLearningMode/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Privacy-Auditing/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-ProcessStateManager/Diagnostic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Program-Compatibility-Assistant/Analytic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Program-Compatibility-Assistant/CompatAfterUpgrade
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Provisioning-Diagnostics-Provider/Admin
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Provisioning-Diagnostics-Provider/AutoPilot
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Provisioning-Diagnostics-Provider/Debug
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Provisioning-Diagnostics-Provider/ManagementService
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Proximity-Common/Diagnostic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Proximity-Common/Informational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Proximity-Common/Performance
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-PushNotification-Developer/Debug
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-PushNotification-InProc/Debug
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-PushNotification-Platform/Admin
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-PushNotification-Platform/Debug
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-PushNotification-Platform/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-QoS-Pacer/Diagnostic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-QoS-qWAVE/Debug
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RPC-Proxy/Debug
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RPC/Debug
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RPC/EEInfo
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RRAS/Debug
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RRAS/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RadioManager/Analytic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Ras-NdisWanPacketCapture/Diagnostic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RasAgileVpn/Debug
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RasAgileVpn/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-ReFS/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-ReFsDedupSvc/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-ReadyBoost/Analytic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-ReadyBoost/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-ReadyBoostDriver/Analytic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-ReadyBoostDriver/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Regsvr32/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RemoteApp and Desktop Connections/Admin
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RemoteApp and Desktop Connections/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RemoteAssistance/Admin
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RemoteAssistance/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RemoteAssistance/Tracing
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Admin
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Debug
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RemoteDesktopServices-SessionServices/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Remotefs-Rdbss/Diagnostic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Remotefs-Rdbss/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-ResetEng-Trace/Diagnostic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Resource-Exhaustion-Detector/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Resource-Exhaustion-Resolver/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-ResourcePublication/Tracing
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RestartManager/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RetailDemo/Admin
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-RetailDemo/Operational
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Runtime-Graphics/Analytic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Runtime-Networking-BackgroundTransfer/Tracing
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Runtime-Networking/Tracing
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Runtime-Web-Http/Tracing
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Runtime-WebAPI/Tracing
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Runtime-Windows-Media/WinRTAdaptiveMediaSource
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Runtime-Windows-Media/WinRTCaptureEngine
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Runtime-Windows-Media/WinRTMediaStreamSource
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Runtime-Windows-Media/WinRTTranscode
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Runtime/CreateInstance
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-Runtime/Error
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-SMBClient/Analytic
+2025-06-12 20:39:03 [INFO] - Cleared event log: Microsoft-Windows-SMBClient/HelperClassDiagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SMBClient/ObjectStateDiagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SMBClient/Operational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SMBServer/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SMBServer/Audit
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SMBServer/Connectivity
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SMBServer/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SMBServer/Operational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SMBServer/Performance
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SMBServer/Security
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SMBWitnessClient/Admin
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SMBWitnessClient/Informational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SPB-ClassExtension/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SPB-HIDI2C/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Schannel-Events/Perf
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Sdbus/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Sdbus/Debug
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Sdstor/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Search-Core/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Search-ProtocolHandlers/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SearchUI/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SearchUI/Operational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-Audit-Configuration-Client/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-Audit-Configuration-Client/Operational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-EnterpriseData-FileRevocationManager/Operational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-ExchangeActiveSyncProvisioning/Operational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-ExchangeActiveSyncProvisioning/Performance
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-IdentityStore/Performance
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-Isolation-BrokeringFileSystem/Operational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-LessPrivilegedAppContainer/Operational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-Mitigations/KernelMode
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-Mitigations/UserMode
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-Netlogon/Operational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-SPP-UX-GC/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging/Operational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-SPP-UX-Notifications/ActionCenter
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-SPP-UX/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-SPP/Perf
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-UserConsentVerifier/Audit
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Security-Vault/Performance
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SecurityMitigationsBroker/Admin
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SecurityMitigationsBroker/Operational
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SecurityMitigationsBroker/Perf
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SendTo/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Sens/Debug
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Sensors/Debug
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Sensors/Performance
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Serial-ClassExtension-V2/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Serial-ClassExtension/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-ServiceReportingApi/Debug
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Services-Svchost/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Services/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Servicing/Debug
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Setup/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SetupCl/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SetupPlatform/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SetupQueue/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-SetupUGC/Analytic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-ShareMedia-ControlPanel/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Shell-AppWizCpl/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Shell-AuthUI-BootAnim/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Shell-AuthUI-Common/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Shell-AuthUI-CredUI/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Shell-AuthUI-CredentialProviderUser/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Shell-AuthUI-Logon/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Shell-AuthUI-LogonUI/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Shell-AuthUI-Shutdown/Diagnostic
+2025-06-12 20:39:04 [INFO] - Cleared event log: Microsoft-Windows-Shell-ConnectedAccountState/ActionCenter
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Shell-Core/ActionCenter
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Shell-Core/AppDefaults
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Shell-Core/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Shell-Core/LogonTasksChannel
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Shell-Core/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Shell-DefaultPrograms/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Shell-LockScreenContent/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Shell-OpenWith/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Shell-Shwebsvc
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Shell-ZipFolder/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-ShellCommon-StartLayoutPopulation/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Shsvcs/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SleepStudy/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SmartCard-Audit/Authentication
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SmartCard-DeviceEnum/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SmartCard-TPM-VCard-Module/Admin
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SmartCard-TPM-VCard-Module/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SmartScreen/Debug
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SmbClient/Audit
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SmbClient/Connectivity
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SmbClient/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SmbClient/Security
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Speech-UserExperience/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Spell-Checking/Analytic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SpellChecker/Analytic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Spellchecking-Host/Analytic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SruMon/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-SrumTelemetry
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StateRepository/Debug
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StateRepository/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StateRepository/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StateRepository/Restricted
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StorDiag/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StorPort/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-ATAPort/Admin
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-ATAPort/Analytic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-ATAPort/Debug
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-ATAPort/Diagnose
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-ATAPort/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-ClassPnP/Admin
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-ClassPnP/Analytic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-ClassPnP/Debug
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-ClassPnP/Diagnose
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-ClassPnP/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Disk/Admin
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Disk/Analytic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Disk/Debug
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Disk/Diagnose
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Disk/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-NvmeDisk/Analytic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-NvmeDisk/Diagnose
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-NvmeDisk/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Storport/Admin
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Storport/Analytic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Storport/Debug
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Storport/Diagnose
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Storport/Health
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Storport/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Tiering-IoHeat/Heat
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-Storage-Tiering/Admin
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StorageManagement-PartUtil/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StorageManagement/Debug
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StorageManagement/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StorageSettings/Diagnostic
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StorageSpaces-Api/Operational
+2025-06-12 20:39:05 [INFO] - Cleared event log: Microsoft-Windows-StorageSpaces-Driver/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-StorageSpaces-Driver/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-StorageSpaces-Driver/Performance
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-StorageSpaces-ManagementAgent/WHC
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-StorageSpaces-Parser/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-StorageSpaces-Parser/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-StorageSpaces-SpaceManager/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-StorageSpaces-SpaceManager/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-StorageVolume/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-StorageVolume/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-Store/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-Storsvc/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-Subsys-Csr/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-Subsys-SMSS/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-Sudo/Admin
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-Superfetch/Main
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-Superfetch/PfApLog
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-Superfetch/StoreLog
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-Sysprep/Analytic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-System-Profile-HardwareId/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-SystemSettingsHandlers/Debug
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-SystemSettingsThreshold/Debug
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-SystemSettingsThreshold/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-SystemSettingsThreshold/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TCPIP/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TCPIP/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TSF-msctf/Debug
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TSF-msctf/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TSF-msutb/Debug
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TSF-msutb/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TTS/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TWinAPI/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TWinUI/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TWinUI/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TZSync/Analytic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TZSync/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TZUtil/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TaskScheduler/Debug
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TaskScheduler/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TaskScheduler/Maintenance
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TaskScheduler/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TaskbarCPL/Diagnostic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-ClientUSBDevices/Admin
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-ClientUSBDevices/Analytic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-ClientUSBDevices/Debug
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-ClientUSBDevices/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-LocalSessionManager/Admin
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-LocalSessionManager/Analytic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-LocalSessionManager/Debug
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-LocalSessionManager/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-MediaRedirection/Analytic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-PnPDevices/Admin
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-PnPDevices/Analytic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-PnPDevices/Debug
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-PnPDevices/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-Printers/Admin
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-Printers/Analytic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-Printers/Debug
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-Printers/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-RDPClient/Analytic
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-RDPClient/Debug
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-RDPClient/Operational
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-RdpSoundDriver/Capture
+2025-06-12 20:39:06 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-RdpSoundDriver/Playback
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-RemoteConnectionManager/Admin
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-RemoteConnectionManager/Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-RemoteConnectionManager/Debug
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-Tethering-Manager/Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-Tethering-Station/Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-ThemeCPL/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-ThemeUI/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-Threat-Intelligence/Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-Time-Service-PTP-Provider/PTP-Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-Time-Service/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-Troubleshooting-Recommended/Admin
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-Troubleshooting-Recommended/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-TunnelDriver
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UAC-FileVirtualization/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UAC/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UIAnimation/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UIAutomationCore/Debug
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UIAutomationCore/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UIAutomationCore/Perf
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UIRibbon/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-USB-MAUSBHOST-Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-USB-UCMUCSICX/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-USB-UCX-Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-USB-USBHUB/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-USB-USBHUB3-Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-USB-USBPORT/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-USB-USBXHCI-Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-USB-USBXHCI-Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-USB-USBXHCI-Trustlet-Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-USBVideo/Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-USBVideo/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UniversalTelemetryClient/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-User Control Panel Performance/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-User Control Panel Usage/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-User Control Panel/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-User Control Panel/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-User Device Registration/Admin
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-User Device Registration/Debug
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-User Profile Service/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-User Profile Service/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-User-Loader/Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-User-Loader/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UserAccountControl/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UserModePowerService/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UserPnp/ActionCenter
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UserPnp/DeviceInstall
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UserPnp/DeviceMetadata/Debug
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UserPnp/Performance
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UserPnp/SchedulerOperations
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UserSettingsBackup-BackupUnitProcessor/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UserSettingsBackup-EarlyDownloader/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UserSettingsBackup-Orchestrator/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UxInit/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-UxTheme/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VDRVROOT/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VHDMP-Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VHDMP-Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VIRTDISK-Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VPN-Client/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VPN/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VWiFi/Diagnostic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VerifyHardwareSecurity/Admin
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VerifyHardwareSecurity/Operational
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VolumeControl/Performance
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VolumeSnapshot-Driver/Analytic
+2025-06-12 20:39:07 [INFO] - Cleared event log: Microsoft-Windows-VolumeSnapshot-Driver/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WABSyncProvider/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WCN-Config-Registrar/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WCNWiz/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WEPHOSTSVC/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WER-Diag/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WER-PayloadHealth/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WFP/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WFP/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WLAN-AutoConfig/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WLAN-Autoconfig/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WLAN-Driver/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WMI-Activity/Debug
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WMI-Activity/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WMI-Activity/Trace
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WMPDMCUI/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WMPNSS-PublicAPI/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WMPNSS-Service/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WMPNSS-Service/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WMPNSSUI/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WPD-API/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WPD-ClassInstaller/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WPD-ClassInstaller/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WPD-CompositeClassDriver/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WPD-CompositeClassDriver/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WPD-MTPBT/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WPD-MTPClassDriver/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WPD-MTPClassDriver/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WPD-MTPIP/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WPD-MTPUS/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WSC-SRV/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WUSA/Debug
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WWAN-MM-Events/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WWAN-NDISUIO-EVENTS/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WWAN-SVC-Events/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WWAN-SVC-Events/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Watchdog-Events/WdLog
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Wcmsvc/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Wcmsvc/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WebAuth/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WebAuthN/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WebIO-DiagInfo
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WebIO-NDF/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WebIO/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WebIO/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WebPlatStorage-Server
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WebServices/Tracing
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WebcamProvider/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Websocket-Protocol-Component/Tracing
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WerKernel/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WiFiDisplay/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Win32k/Concurrency
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Win32k/Contention
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Win32k/Messages
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Win32k/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Win32k/Power
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Win32k/Render
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Win32k/Tracing
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-Win32k/UIPI
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WinHTTP-NDF/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WinHttp-Pca
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WinHttp/Diagnostic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WinHttp/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WinINet-Capture/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WinINet-Config/ProxyConfigChanged
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WinINet/Analytic
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WinINet/Operational
+2025-06-12 20:39:08 [INFO] - Cleared event log: Microsoft-Windows-WinINet/Pca
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WinINet/UsageLog
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WinINet/WebSocket
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WinMDE/MDE
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WinML/Analytic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WinNat/Oper
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WinNat/Trace
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WinRM/Analytic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WinRM/Debug
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WinRM/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WinURLMon/Analytic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Windeploy/Analytic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Windows Defender/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Windows Defender/WHC
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Windows Firewall With Advanced Security/ConnectionSecurity
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Windows Firewall With Advanced Security/ConnectionSecurityVerbose
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Windows Firewall With Advanced Security/Firewall
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Windows Firewall With Advanced Security/FirewallVerbose
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WindowsBackup/ActionCenter
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WindowsColorSystem/Debug
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WindowsColorSystem/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WindowsSystemAssessmentTool/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WindowsSystemAssessmentTool/Tracing
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WindowsUIImmersive/Diagnostic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WindowsUIImmersive/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WindowsUpdateClient/Analytic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WindowsUpdateClient/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Wininit/Diagnostic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Winlogon/Diagnostic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Winlogon/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Winsock-AFD/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Winsock-NameResolution/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Winsock-WS2HELP/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Winsrv/Analytic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Wired-AutoConfig/Diagnostic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Wired-AutoConfig/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WlanDlg/Analytic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WorkFolders/Analytic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WorkFolders/Debug
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WorkFolders/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-WorkFolders/WHC
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-Workplace Join/Admin
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-XAML-Diagnostics/Default
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-XAML/Default
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-XAudio2/Debug
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-XAudio2/Performance
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-ZTDNS/BlockedConnections
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-ZTDNS/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-ZTDNS/PermittedConnections
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-ZTHELPER/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-ZTraceMaps/Function
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-ZTraceMaps/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-glcnd/Admin
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-glcnd/Debug
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-glcnd/Diagnostic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-hidcfu/Operational
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-mobsync/Diagnostic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-ntshrui
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-ntshrui-perf
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-osk/Diagnostic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-stobject/Diagnostic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-wmbclass/Analytic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-Windows-wmbclass/Trace
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft-WindowsPhone-Connectivity-WiFiConnSvc-Channel
+2025-06-12 20:39:09 [INFO] - Cleared event log: Microsoft.Windows.MPTF/Diagnostic
+2025-06-12 20:39:09 [INFO] - Cleared event log: NIS-Driver-WFP/Diagnostic
+2025-06-12 20:39:09 [INFO] - Cleared event log: Navigator
+2025-06-12 20:39:09 [INFO] - Cleared event log: Network Isolation Operational
+2025-06-12 20:39:10 [INFO] - Cleared event log: OSK_SoftKeyboard_Channel
+2025-06-12 20:39:10 [INFO] - Cleared event log: OpenSSH/Admin
+2025-06-12 20:39:10 [INFO] - Cleared event log: OpenSSH/Debug
+2025-06-12 20:39:10 [INFO] - Cleared event log: OpenSSH/Operational
+2025-06-12 20:39:10 [INFO] - Cleared event log: Physical_Keyboard_Manager_Channel
+2025-06-12 20:39:10 [INFO] - Cleared event log: PlayReadyPerformanceChannel
+2025-06-12 20:39:10 [INFO] - Cleared event log: Plugin-Passkey-Providers/Operational
+2025-06-12 20:39:10 [INFO] - Cleared event log: PowerShellCore/Analytic
+2025-06-12 20:39:10 [INFO] - Cleared event log: PowerShellCore/Debug
+2025-06-12 20:39:10 [INFO] - Cleared event log: PowerShellCore/Operational
+2025-06-12 20:39:10 [INFO] - Cleared event log: RTWorkQueueExtended
+2025-06-12 20:39:10 [INFO] - Cleared event log: RTWorkQueueTheading
+2025-06-12 20:39:10 [INFO] - Cleared event log: SMSApi
+2025-06-12 20:39:10 [INFO] - Cleared event log: Security
+2025-06-12 20:39:10 [INFO] - Cleared event log: Setup
+2025-06-12 20:39:10 [INFO] - Cleared event log: SmbWmiAnalytic
+2025-06-12 20:39:10 [INFO] - Cleared event log: Synced-Passkey-Provider/Debug
+2025-06-12 20:39:10 [INFO] - Cleared event log: Synced-Passkey-Provider/Operatonal
+2025-06-12 20:39:10 [INFO] - Cleared event log: System
+2025-06-12 20:39:10 [INFO] - Cleared event log: SystemEventsBroker
+2025-06-12 20:39:10 [INFO] - Cleared event log: TabletPC_InputPanel_Channel
+2025-06-12 20:39:10 [INFO] - Cleared event log: TabletPC_InputPanel_Channel/IHM
+2025-06-12 20:39:10 [INFO] - Cleared event log: TimeBroker
+2025-06-12 20:39:10 [INFO] - Cleared event log: UIManager_Channel
+2025-06-12 20:39:10 [INFO] - Cleared event log: Uac/Debug
+2025-06-12 20:39:10 [INFO] - Cleared event log: Visual Studio
+2025-06-12 20:39:10 [INFO] - Cleared event log: WINDOWS_MFH264Enc_CHANNEL
+2025-06-12 20:39:10 [INFO] - Cleared event log: WINDOWS_MP4SDECD_CHANNEL
+2025-06-12 20:39:10 [INFO] - Cleared event log: WINDOWS_MSMPEG2ADEC_CHANNEL
+2025-06-12 20:39:10 [INFO] - Cleared event log: WINDOWS_MSMPEG2VDEC_CHANNEL
+2025-06-12 20:39:10 [INFO] - Cleared event log: WINDOWS_VC1ENC_CHANNEL
+2025-06-12 20:39:10 [INFO] - Cleared event log: WINDOWS_WMPHOTO_CHANNEL
+2025-06-12 20:39:10 [INFO] - Cleared event log: WINDOWS_wmvdecod_CHANNEL
+2025-06-12 20:39:10 [INFO] - Cleared event log: WMPSetup
+2025-06-12 20:39:10 [INFO] - Cleared event log: WMPSyncEngine
+2025-06-12 20:39:10 [INFO] - Cleared event log: Windows Networking Vpn Plugin Platform/Operational
+2025-06-12 20:39:10 [INFO] - Cleared event log: Windows Networking Vpn Plugin Platform/OperationalVerbose
+2025-06-12 20:39:10 [INFO] - Cleared event log: Windows PowerShell
+2025-06-12 20:39:10 [INFO] - Cleared event log: muxencode
+2025-06-12 20:39:10 [INFO] - Clearing temp files...
+2025-06-12 20:39:10 [ERROR] - Failed to clear temp at C:\Users\miste\AppData\Local\Temp\*: The process cannot access the file 'swap.vhdx' because it is being used by another process.
+2025-06-12 20:39:10 [ERROR] - Failed to clear temp at C:\Users\miste\AppData\Local\Temp\*: The process cannot access the file 'swap.vhdx' because it is being used by another process.
+2025-06-12 20:39:10 [INFO] - Cleared temp: C:\WINDOWS\Temp\*
+2025-06-12 20:39:10 [INFO] - Checking for Windows updates...
+2025-06-12 20:39:27 [INFO] - No Windows updates found.
+2025-06-12 20:39:27 [INFO] - Updating developer software with Chocolatey...
+2025-06-12 20:39:28 [INFO] - Chocolatey v2.4.3
+2025-06-12 20:39:28 [INFO] - Upgrading the following packages:
+2025-06-12 20:39:28 [INFO] - all
+2025-06-12 20:39:28 [INFO] - By upgrading, you accept licenses for the packages.
+2025-06-12 20:39:29 [INFO] - androidstudio v2024.3.2.15 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - awscli v2.27.32 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - azure-cli v2.72.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - bitwarden v2025.5.1 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - blender v4.4.3 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - chocolatey v2.4.3 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - chocolatey-compatibility.extension v1.0.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - chocolatey-core.extension v1.4.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - chocolatey-dotnetfx.extension v1.0.1 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - chocolatey-font-helpers.extension v0.0.4 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - chocolatey-windowsupdate.extension v1.0.5 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - curl v8.14.1 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - dart-sdk v3.8.1 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - dbeaver v25.1.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - docker-desktop v4.42.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - dotnetfx v4.8.0.20220524 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - dropbox v226.4.5094 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - Everything v1.4.11027 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - Firefox v139.0.4 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - flutter v3.32.1 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - gimp v3.0.4 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - git v2.49.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - git.install v2.49.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - github-desktop v3.4.20 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - greenshot v1.2.10.6 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - InkScape v1.4.2 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - intellijidea-community v2025.1.1.1 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - KB2919355 v1.0.20160915 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - KB2919442 v1.0.20160915 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - KB2999226 v1.0.20181019 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - KB3033929 v1.0.5 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - KB3035131 v1.0.3 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - mongodb v8.1.1 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - mongodb.install v8.1.1 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - nerd-fonts-CascadiaCode v3.4.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - nerd-fonts-FiraCode v3.4.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - nerd-fonts-JetBrainsMono v3.4.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - nodejs-lts v22.16.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - openjdk v22.0.2 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - openjdk17 v17.0.2.20220913 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - postgresql v17.4.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - postgresql17 v17.4.0 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - python v3.13.4 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - python3 v3.13.4 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - python313 v3.13.4 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - redis v8.0.2 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - shutup10 v1.9.1439 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - syncthing v1.29.7 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - Temurin17 v17.0.14.7 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - vcredist140 v14.44.35208 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - vcredist2008 v9.0.30729.616104 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - vcredist2015 v14.0.24215.20170201 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - vlc v3.0.21 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - vlc.install v3.0.21 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - vscode v1.100.3 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - vscode.install v1.100.3 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - wsl2 v2.4.13 is the latest version available based on your source(s).
+2025-06-12 20:39:29 [INFO] - 
+2025-06-12 20:39:29 [INFO] - Chocolatey upgraded 0/57 packages. 
+2025-06-12 20:39:29 [INFO] -  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+2025-06-12 20:39:29 [INFO] - Developer tools updated via Chocolatey.
+2025-06-12 20:39:29 [INFO] - Pushing script updates to GitHub...
